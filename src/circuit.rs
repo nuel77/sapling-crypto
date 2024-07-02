@@ -26,7 +26,7 @@ use self::constants::{
 use group::ff::PrimeFieldBits;
 
 mod constants;
-mod ecc;
+pub mod ecc;
 mod pedersen_hash;
 
 // π_A + π_B + π_C
